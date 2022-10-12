@@ -125,6 +125,8 @@ header {
   margin: 5px 15px;
   justify-content: space-between;
   margin-bottom: 30px;
+  font-family: "Nunito Sans";
+
 }
 
 ul {
@@ -133,11 +135,14 @@ ul {
 
 ul a {
   text-decoration: none;
+  color: #5F9DF7;
 }
 
 ul li {
+
   display: inline;
   margin-left: 10px;
+  
 }
 
 #home-page {
@@ -294,3 +299,4 @@ ul li {
 h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
