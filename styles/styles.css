@@ -12,6 +12,8 @@
       format("svg"); /* Legacy iOS */
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 /* petit reset minimal de base */
 *,
 *::before,
@@ -86,6 +88,7 @@ p {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -116,8 +119,8 @@ header {
 }
 
 #nav-header {
-  border: solid 5px yellow;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin: 5px 15px;
   justify-content: space-between;
@@ -138,11 +141,11 @@ ul li {
 }
 
 #home-page {
-  border: 5px solid blue;
   font-family: "Nunito Sans";
   height: 500px;
   margin: 0 15%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
   position: relative;
@@ -168,8 +171,6 @@ ul li {
 
 #home-page-img {
   width: 463px;
-  font-family: "Nunito Sans";
-  font-weight: 600;
   position: absolute;
   top: 51%;
   left: 50%;
@@ -177,9 +178,16 @@ ul li {
   transform: translate(-50%, -50%);
 }
 
-.container1 {
-  border: solid 5px pink;
+.container {
+  /* border: solid 5px yellow; */
+  margin-right: 15%;
+  margin-left: 15%;
+  font-family: "Nunito Sans";
+}
+
+#fc {
   background-color: #dedede;
+  /* border: 5px solid yellow; */
 }
 
 #c3-p2 {
@@ -191,4 +199,98 @@ ul li {
   font-size: 0.7em;
   padding-right: 10em;
   padding-bottom: 1rem;
+}
+
+.sub-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 96px auto;
+  /* border: 5px solid greenyellow; */
+}
+
+#first-bar {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+
+.bar {
+  background-color: #151a2d;
+  border: 1px solid red;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: start;
+  height: 70px;
+  padding-left: 20px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#b1 {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#b2 {
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#b3 {
+  color: #2d8ae9;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#hcihy {
+  width: 57%;
+  margin-left: 3%;
+}
+
+#l1 {
+  background-color: red;
+}
+
+#l2 {
+  background-color: orange;
+}
+
+#l3 {
+  background-color: #2d8ae9;
+}
+
+.bar:hover {
+  cursor: pointer;
+}
+
+.bar:active {
+  background-color: black;
+}
+
+.sub-container2 {
+  /* border: 5px solid greenyellow; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 96px auto;
+}
+
+#jsudwp {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 3em 1rem;
+}
+
+#img2 {
+  width: 38%;
+  margin-left: 2%;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
