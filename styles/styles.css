@@ -346,7 +346,7 @@ h2 {
 }
 
 .ul-flex {
-  display: flex;
+  display: flex;     
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 2rem;
