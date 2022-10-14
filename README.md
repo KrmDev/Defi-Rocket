@@ -30,7 +30,7 @@ Dans ce 1er défi, vous avez des règles à respecter. Plus, vous avancerez dans
 Vous aurez donc la possibilité de personnaliser votre portfolio au gré de votre imagination. 
 
 _PS : Je n'ai pas mis de lorem ipsum dans la maquette pour les textes, je trouve ça trop insipide et donne une vision partielle du résultat final._
-
+    
 ----
 ## Introduction
 
