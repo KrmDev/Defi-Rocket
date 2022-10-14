@@ -94,8 +94,8 @@ header {
 
 .logo {
   width: 2em;
-  display: inline;
   background-color: white;
+  display: inline;
 }
 
 #contact {
@@ -126,7 +126,6 @@ header {
   justify-content: space-between;
   margin-bottom: 30px;
   font-family: "Nunito Sans";
-
 }
 
 ul {
@@ -135,14 +134,12 @@ ul {
 
 ul a {
   text-decoration: none;
-  color: #5F9DF7;
+  color: #5f9df7;
+  margin-left: 10px;
 }
 
 ul li {
-
-  display: inline;
-  margin-left: 10px;
-  
+  margin-right: 10px;
 }
 
 #home-page {
@@ -184,7 +181,7 @@ ul li {
 }
 
 .container {
-  /* border: solid 5px yellow; */
+  /* border: solid 2px yellow; */
   margin-right: 15%;
   margin-left: 15%;
   font-family: "Nunito Sans";
@@ -192,7 +189,7 @@ ul li {
 
 #fc {
   background-color: #dedede;
-  /* border: 5px solid yellow; */
+  border: 3px solid yellow;
 }
 
 #c3-p2 {
@@ -210,7 +207,7 @@ ul li {
   display: flex;
   flex-wrap: wrap;
   margin: 96px auto;
-  /* border: 5px solid greenyellow; */
+  border: 3px solid greenyellow;
 }
 
 #first-bar {
@@ -278,7 +275,7 @@ ul li {
 }
 
 .sub-container2 {
-  /* border: 5px solid greenyellow; */
+  border: 3px solid greenyellow;
   display: flex;
   flex-wrap: wrap;
   margin: 96px auto;
@@ -297,6 +294,189 @@ ul li {
 }
 
 h2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.sub-container-title {
+  text-align: center;
+  color: #3a5f67;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.sub-container3 {
+  /* border: 3px solid greenyellow; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  margin-bottom: 96px;
+}
+
+.img-li {
+  width: 5.4em;
+  display: flex;
+}
+
+#ddc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 50%;
+}
+
+#ced {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 50%;
+}
+
+#cecg {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ul-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.sub-li {
+  font-style: italic;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  margin-left: 2.7rem;
+}
+
+.sb3-li {
+  color: red;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.logo2 {
+  width: 1.9rem;
+  display: flex;
+}
+
+h4 {
+  font-size: 1.3em;
+  margin-bottom: 3rem;
+  font-weight: 750;
+}
+
+.img-li2 {
+  width: 2.5em;
+  display: flex;
+}
+
+.sub-container4 {
+  display: flex;
+  /* border: 3px solid greenyellow; */
+  margin: 32px auto 46px auto;
+  gap: 1em;
+}
+
+#f1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  flex-wrap: wrap;
+  width: 33%;
+  flex-grow: 1;
+  border-radius: 0.5rem;
+  padding-top: 2rem;
+}
+
+#f2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  width: 33%;
+  flex-grow: 1;
+  padding-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+#f3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  width: 33%;
+  flex-grow: 1;
+  padding-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+.certif {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: #e7e7e7;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.fa {
+  text-decoration: none;
+  color: red;
+}
+
+.certif-button {
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(3, 3, 49);
+}
+
+.certif a {
+  color: rgb(0, 153, 255);
+  font-size: 1.4rem;
+}
+
+.f-title {
+  font-size: 1.2em;
+  color: #3a5f67;
+  font-weight: bold;
+}
+
+.f-subtitle {
+  font-weight: bold;
+}
+
+#cv {
+  display: flex;
+  text-decoration: none;
+  color: rgb(201, 27, 27);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
