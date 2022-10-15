@@ -90,12 +90,20 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  
+  /* position: sticky;
+  top: 0; */
+
+  /* position: fixed;
+  top: 0rem;
+  width: 100%;
+  background-color: #dedede; */
 }
 
 .logo {
-  width: 2em;
-  background-color: white;
-  display: inline;
+  width: 1.8em;
+  display: flex;
+  fill: white;
 }
 
 #contact {
@@ -103,55 +111,70 @@ header {
   background-color: #151a2d;
   flex-direction: row;
   justify-content: space-between;
+  height: 4rem;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
 
 .contact {
   color: white;
-  margin: 0px 15px;
+  margin: 0 1.5rem;
   display: flex;
   align-items: center;
   font-family: "Nunito Sans";
 }
 
 #logo-email {
-  background-color: red;
+  width: 1.5em;
+  fill: red;
 }
 
 #logo-phone {
-  background-color: #234b7c;
+  width: 1.6em;
+  fill: #3583c4;
 }
 
 #nav-header {
+ 
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 5px 15px;
+  padding: 0.5rem 1.5rem;
   justify-content: space-between;
   font-family: "Nunito Sans";
+ 
+  /* position: sticky;
+  top: 0; */
 
   /* position: fixed;
-  width: 100%; */
-
+  top: 4.3rem;
+  width: 100%;
+  background-color: #dedede; */
 }
-
 
 ul {
   list-style: none;
 }
 
 ul a {
-  text-decoration: none;
-  color: #5f9df7;
-  margin-left: 10px;
+  margin-left: 1rem;
+  
 }
 
 ul li {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 #home-page {
   font-family: "Nunito Sans";
-  height: 500px;
+  height: 50rem;
   margin: 0 15%;
   display: flex;
   flex-wrap: wrap;
@@ -175,11 +198,11 @@ ul li {
   justify-content: space-between;
   font-size: 1.6em;
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 #home-page-img {
-  width: 463px;
+  width: 46.3rem;
   position: absolute;
   top: 51%;
   left: 50%;
@@ -188,15 +211,13 @@ ul li {
 }
 
 .container {
-  /* border: solid 2px yellow; */
   margin-right: 15%;
   margin-left: 15%;
   font-family: "Nunito Sans";
 }
 
-#fc {
+main {
   background-color: #dedede;
-  /* border: 3px solid yellow; */
 }
 
 #c3-p2 {
@@ -213,8 +234,7 @@ ul li {
 .sub-container1 {
   display: flex;
   flex-wrap: wrap;
-  margin: 96px auto;
-  /* border: 3px solid greenyellow; */
+  margin: 9.6rem auto;
 }
 
 #first-bar {
@@ -225,12 +245,11 @@ ul li {
 
 .bar {
   background-color: #151a2d;
-  border: 1px solid red;
-  margin-bottom: 15px;
-  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
   text-align: start;
-  height: 70px;
-  padding-left: 20px;
+  height: 7rem;
+  padding-left: 2rem;
   font-size: larger;
   font-weight: bold;
 }
@@ -262,15 +281,15 @@ ul li {
 }
 
 #l1 {
-  background-color: red;
+  fill: red;
 }
 
 #l2 {
-  background-color: orange;
+  fill: orange;
 }
 
 #l3 {
-  background-color: #2d8ae9;
+  fill: #2d8ae9;
 }
 
 .bar:hover {
@@ -282,10 +301,9 @@ ul li {
 }
 
 .sub-container2 {
-  /* border: 3px solid greenyellow; */
   display: flex;
   flex-wrap: wrap;
-  margin: 96px auto;
+  margin: 9.6rem auto;
 }
 
 #jsudwp {
@@ -316,12 +334,11 @@ h2 {
 }
 
 .sub-container3 {
-  /* border: 3px solid greenyellow; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 32px;
-  margin-bottom: 96px;
+  margin-top: 3.2rem;
+  margin-bottom: 9.6rem;
 }
 
 .img-li {
@@ -346,13 +363,13 @@ h2 {
 }
 
 #cecg {
-  margin-top: 10px;
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .ul-flex {
-  display: flex;     
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 2rem;
@@ -393,8 +410,7 @@ h4 {
 
 .sub-container4 {
   display: flex;
-  /* border: 3px solid greenyellow; */
-  margin: 32px auto 46px auto;
+  margin: 3.2rem auto 4.6rem auto;
   gap: 1em;
 }
 
@@ -418,7 +434,7 @@ h4 {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  border: 1px solid rgba(128, 128, 128, 0.5);
+  border: 0.1rem solid rgba(128, 128, 128, 0.5);
   width: 33%;
   flex-grow: 1;
   padding-top: 2rem;
@@ -431,7 +447,7 @@ h4 {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  border: 1px solid rgba(128, 128, 128, 0.5);
+  border: 0.1rem solid rgba(128, 128, 128, 0.5);
   width: 33%;
   flex-grow: 1;
   padding-top: 2rem;
@@ -446,7 +462,7 @@ h4 {
   align-items: center;
   justify-content: center;
   margin-top: 2em;
-  border-top: 1px solid rgba(128, 128, 128, 0.5);
+  border-top: 0.1rem solid rgba(128, 128, 128, 0.5);
 }
 
 .fa {
@@ -484,33 +500,35 @@ h4 {
   align-items: center;
   font-size: 1.7rem;
   font-weight: bold;
-  padding-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
+#cv:hover {
+  color: darkorange;
+  font-weight: 750;
+}
+
+
 .sub-container5 {
-  /* border: 3px solid greenyellow; */
   display: flex;
   flex-direction: column;
   height: auto;
-  margin-bottom: 120px;
+  margin-bottom: 12rem;
 }
 
 .content {
-  /* border: 3px solid blue; */
   display: flex;
-  padding: 10px;
-  margin-bottom: 10px
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 #barbershop {
-  /* border: 3px solid yellow; */
   display: flex;
   width: 57%;
   padding-right: 3%;
 }
 
 #barber-description {
-  /* border: 3px solid yellow; */
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -518,7 +536,6 @@ h4 {
 }
 
 #massage {
-  /* border: 3px solid yellow; */
   display: flex;
   width: 57%;
   padding-left: 3%;
@@ -526,7 +543,6 @@ h4 {
 }
 
 #massage-description {
-  /* border: 3px solid yellow; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -545,7 +561,6 @@ h4 {
   flex-direction: column;
   justify-content: center;
 }
-
 
 #crèche-description {
   display: flex;
@@ -575,7 +590,7 @@ h4 {
 }
 
 h3 {
-  color:rgba(247, 10, 10, 0.829);
+  color: rgba(247, 10, 10, 0.829);
   font-size: 1.4em;
   font-weight: normal;
 }
@@ -588,10 +603,9 @@ h3 {
 }
 
 .img-shadow {
-  box-shadow: 11px 10px 21px -10px rgba(0,0,0,0.51);
--webkit-box-shadow: 11px 10px 21px -10px rgba(0,0,0,0.51);
--moz-box-shadow: 11px 10px 21px -10px rgba(0,0,0,0.51);
-
+  box-shadow: 11px 10px 21px -10px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 11px 10px 21px -10px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 11px 10px 21px -10px rgba(0, 0, 0, 0.51);
 }
 
 footer {
@@ -600,7 +614,7 @@ footer {
 }
 
 #footer {
-  /* border: 3px solid green; */
+ 
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -618,4 +632,51 @@ h6 {
   text-decoration: none;
   color: red;
   font-size: 1.1em;
+}
+
+
+.a-effect {
+  background-image: linear-gradient(
+    to right,
+    #54b8d6,
+    #54b3d6 50%,
+    rgba(22, 57, 155, 0.822) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.a-effect:hover {
+  background-position: 0;
+  
+}
+
+.a-effect::before {
+
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+a:hover {
+  font-weight: bold;
+  color: darkorange ;
+}
+
+.email:hover {
+  font-weight: 900;
+  color: red;
 }
