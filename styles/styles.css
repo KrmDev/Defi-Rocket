@@ -108,6 +108,9 @@ header {
 .contact {
   color: white;
   margin: 0px 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Nunito Sans";
 }
 
 #logo-email {
@@ -124,9 +127,13 @@ header {
   flex-direction: row;
   margin: 5px 15px;
   justify-content: space-between;
-  margin-bottom: 30px;
   font-family: "Nunito Sans";
+
+  /* position: fixed;
+  width: 100%; */
+
 }
+
 
 ul {
   list-style: none;
@@ -189,7 +196,7 @@ ul li {
 
 #fc {
   background-color: #dedede;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
 }
 
 #c3-p2 {
@@ -207,7 +214,7 @@ ul li {
   display: flex;
   flex-wrap: wrap;
   margin: 96px auto;
-  border: 3px solid greenyellow;
+  /* border: 3px solid greenyellow; */
 }
 
 #first-bar {
@@ -275,7 +282,7 @@ ul li {
 }
 
 .sub-container2 {
-  border: 3px solid greenyellow;
+  /* border: 3px solid greenyellow; */
   display: flex;
   flex-wrap: wrap;
   margin: 96px auto;
@@ -327,7 +334,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
   width: 50%;
 }
 
@@ -479,4 +485,137 @@ h4 {
   font-size: 1.7rem;
   font-weight: bold;
   padding-bottom: 50px;
+}
+
+.sub-container5 {
+  /* border: 3px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-bottom: 120px;
+}
+
+.content {
+  /* border: 3px solid blue; */
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px
+}
+
+#barbershop {
+  /* border: 3px solid yellow; */
+  display: flex;
+  width: 57%;
+  padding-right: 3%;
+}
+
+#barber-description {
+  /* border: 3px solid yellow; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#massage {
+  /* border: 3px solid yellow; */
+  display: flex;
+  width: 57%;
+  padding-left: 3%;
+  justify-content: flex-start;
+}
+
+#massage-description {
+  /* border: 3px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+#salon-beauté {
+  display: flex;
+  width: 57%;
+  padding-right: 3%;
+}
+
+#beauté-description {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#crèche-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+#crèche {
+  display: flex;
+  width: 57%;
+  padding-left: 3%;
+  justify-content: flex-start;
+}
+
+#code {
+  display: flex;
+  width: 57%;
+  padding-right: 3%;
+}
+
+#code-description {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  color:rgba(247, 10, 10, 0.829);
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
+.visit-button {
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+  padding: 0.8rem 1.7rem 0.8rem 1.7rem;
+  background-color: rgb(5, 5, 61);
+}
+
+.img-shadow {
+  box-shadow: 11px 10px 21px -10px rgba(0,0,0,0.51);
+-webkit-box-shadow: 11px 10px 21px -10px rgba(0,0,0,0.51);
+-moz-box-shadow: 11px 10px 21px -10px rgba(0,0,0,0.51);
+
+}
+
+footer {
+  background-color: #151a2d;
+  display: flex;
+}
+
+#footer {
+  /* border: 3px solid green; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 1.5rem 15% 1.5rem 15%;
+  color: white;
+  align-items: center;
+}
+
+h6 {
+  font-size: 1.5em;
+}
+
+.email {
+  text-decoration: none;
+  color: red;
+  font-size: 1.1em;
 }
